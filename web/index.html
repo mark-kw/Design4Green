@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Best practice market</title>
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type=" text/javascript" src="shopping_cart.js "></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+        <div class="container ">
+            <a class="navbar-brand " href="index.html ">Eco Marketplace</a>
+            <button class="navbar-toggler "></button>
+            <div align="right" style="color: white; font-weight: bold; width: 2000px"> Concevoir un site web eco responsable, un pas vers le Numerique Responsable</div>
+            <div class="collapse navbar-collapse justify-content-end " data-bs-toggle="modal" data-bs-target="#exampleModal" id="navbarsExampleDefault ">
+                <form id="panier" class="form-inline my-2 my-lg-0 ">
+                    <a class="btn btn-success btn-sm ml-3 ">
+                        <i class="fa fa-shopping-cart "></i>
+                        <span class="badge badge-light">0</span>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div align="center">
+        <img src="banner.jpg" alt="Banner" style="width: 1000px; height: 500px">
+    </div>
+
+    <div align="center">
+        <img src="template.gif" alt="Explanation Template" style="width: 1000px;height: 500px;margin: 50px">
+    </div>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Panier</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modal_card">
+                    <div class="container">
+                        <div id="accordion" role="tablist" aria-multiselectable="headingThree">
+
+                            <h5 class="card-header" role="tab" id="headingThree">
+                                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#NA" aria-expanded="false" aria-controls="ARCHITECTURE">
+                                    <i class="fa fa-chevron-down pull-right"></i> N/A
+                                </a>
+                            </h5>
+
+                            <div id="NA" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+                            </div>
+
+                            <h5 class="card-header" role="tab" id="headingThree">
+                                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#Acquisition" aria-expanded="false" aria-controls="STRATEGIE">
+                                    <i class="fa fa-chevron-down pull-right"></i> Acquisition
+                                </a>
+                            </h5>
+
+                            <div id="Acquisition" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+                            </div>
+
+                            <h5 class="card-header" role="tab" id="headingThree">
+                                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#Réalisation" aria-expanded="false" aria-controls="STRATEGIE">
+                                    <i class="fa fa-chevron-down pull-right"></i> Réalisation
+                                </a>
+                            </h5>
+
+                            <div id="Réalisation" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+                            </div>
+
+                            <h5 class="card-header" role="tab" id="headingThree">
+                                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#Deploiement" aria-expanded="false" aria-controls="Deploiement">
+                                    <i class="fa fa-chevron-down pull-right"></i> Deploiement
+                                </a>
+                            </h5>
+
+                            <div id="Deploiement" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+                            </div>
+
+                            <h5 class="card-header" role="tab" id="headingThree">
+                                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#Administration" aria-expanded="false" aria-controls="HEBERGEMENT">
+                                    <i class="fa fa-chevron-down pull-right"></i> Administration
+                            </h5>
+
+                            <div id="Administration" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+                            </div>
+
+                            <h5 class="card-header" role="tab" id="headingThree">
+                                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#Utilisation" aria-expanded="false" aria-controls="HEBERGEMENT">
+                                    <i class="fa fa-chevron-down pull-right"></i> Utilisation
+                            </h5>
+
+                            <div id="Utilisation" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+                            </div>
+
+                            <h5 class="card-header" role="tab" id="headingThree">
+                                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#Maintenance" aria-expanded="false" aria-controls="HEBERGEMENT">
+                                    <i class="fa fa-chevron-down pull-right"></i> Maintenance
+                            </h5>
+
+                            <div id="Maintenance" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+                            </div>
+
+                            <h5 class="card-header" role="tab" id="headingThree">
+                                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#Fin de Vie" aria-expanded="false" aria-controls="UXUI">
+                                    <i class="fa fa-chevron-down pull-right"></i> Fin de Vie
+                            </h5>
+
+                            <div id="Fin de Vie" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+                            </div>
+
+                            <h5 class="card-header" role="tab" id="headingThree">
+                                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#Revalorisation" aria-expanded="false" aria-controls="UXUI">
+                                    <i class="fa fa-chevron-down pull-right"></i> Revalorisation
+                            </h5>
+
+                            <div id="Revalorisation" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" id="btn_download" class="btn btn-primary">Download</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <!--<div class="modal-header"> -->
+                <!--  <h5 class="modal-title" id="exampleModalLabel2">DETAIL</h5> -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <!--</div> -->
+                <div class="modal-body" id="modal_indivudal_card">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div id="accordion" role="tablist" aria-multiselectable="headingThree">
+
+            <h5 class="card-header" role="tab" id="headingThree">
+                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#ARCHITECTURE" aria-expanded="false" aria-controls="ARCHITECTURE">
+                    <i class="fa fa-chevron-down pull-right"></i> ARCHITECTURE
+                </a>
+            </h5>
+
+            <div id="ARCHITECTURE" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+            </div>
+
+            <h5 class="card-header" role="tab" id="headingThree">
+                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#BACKEND" aria-expanded="false" aria-controls="STRATEGIE">
+                    <i class="fa fa-chevron-down pull-right"></i> BACKEND
+                </a>
+            </h5>
+
+            <div id="BACKEND" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+            </div>
+
+            <h5 class="card-header" role="tab" id="headingThree">
+                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#CONTENUS" aria-expanded="false" aria-controls="STRATEGIE">
+                    <i class="fa fa-chevron-down pull-right"></i> CONTENUS
+                </a>
+            </h5>
+
+            <div id="CONTENUS" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+            </div>
+
+            <h5 class="card-header" role="tab" id="headingThree">
+                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#FRONTEND" aria-expanded="false" aria-controls="FRONTEND">
+                    <i class="fa fa-chevron-down pull-right"></i> FRONTEND
+                </a>
+            </h5>
+
+            <div id="FRONTEND" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+            </div>
+
+            <h5 class="card-header" role="tab" id="headingThree">
+                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#HEBERGEMENT" aria-expanded="false" aria-controls="HEBERGEMENT">
+                    <i class="fa fa-chevron-down pull-right"></i> HEBERGEMENT
+            </h5>
+
+            <div id="HEBERGEMENT" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+            </div>
+
+            <h5 class="card-header" role="tab" id="headingThree">
+                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#SPECIFICATIONS" aria-expanded="false" aria-controls="HEBERGEMENT">
+                    <i class="fa fa-chevron-down pull-right"></i> SPECIFICATIONS
+            </h5>
+
+            <div id="SPECIFICATIONS" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+            </div>
+
+            <h5 class="card-header" role="tab" id="headingThree">
+                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#STRATEGIE" aria-expanded="false" aria-controls="HEBERGEMENT">
+                    <i class="fa fa-chevron-down pull-right"></i> STRATEGIE
+            </h5>
+
+            <div id="STRATEGIE" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+            </div>
+
+            <h5 class="card-header" role="tab" id="headingThree">
+                <a class="collapsed d-block" data-bs-toggle="collapse" data-parent="#accordion" href="#UXUI" aria-expanded="false" aria-controls="UXUI">
+                    <i class="fa fa-chevron-down pull-right"></i> UX/UI
+            </h5>
+
+            <div id="UXUI" class="collapse" role="tabpanel " aria-labelledby="headingThree ">
+
+            </div>
+
+        </div>
+    </div>
+    <footer style="background-color: #333333; height: 7em; margin-top: 2em;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <h2 style="color: white"><a>Eco Market</a></h2>
+                    <p style="color: white">
+                        <a href="index.html" style="color: white">Home</a>
+                    </p>
+                </div>
+                <div align="center" style="color: white">
+                    <p class="copyright">All rights reserved | This project is made for the D4G challenge by team 53</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
